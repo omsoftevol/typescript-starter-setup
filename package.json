@@ -1,0 +1,40 @@
+{
+  "name": "typescript-starter-setup",
+  "version": "1.0.0",
+  "description": "Demo of setup for TypeScript tech stack",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build-watch": "tsc --watch",
+    "watch": "nodemon --watch build build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omsoftevol/typescript-starter-setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omsoftevol/typescript-starter-setup/issues"
+  },
+  "homepage": "https://github.com/omsoftevol/typescript-starter-setup#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.26",
+    "@types/node-fetch": "^2.6.1",
+    "@types/uuid": "^8.3.4",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "mysql2": "^2.3.3",
+    "node-fetch": "^2.6.7",
+    "uuid": "^8.3.2",
+    "winston": "^3.6.0"
+  }
+}
